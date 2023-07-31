@@ -30,7 +30,7 @@ const Heading = ({
           </p>
         </div>
       </div>
-    
+     
   );
 };
 
