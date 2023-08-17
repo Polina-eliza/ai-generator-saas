@@ -9,12 +9,8 @@ const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
   const isPro = await checkSubscription();
 
   return (
-    <div className="h-full relative">
-    <main className="md:pl-72">
-      {children}
-    </main>
-  </div>
-);
+  )
+  
   }
 
 export default DashboardLayout;
