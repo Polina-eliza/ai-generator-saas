@@ -1,5 +1,4 @@
-import Navbar from "@/components/navbar"
-import Sidebar from "@/components/sidebar"
+
 import { getApiLimitCount } from "@/lib/api-limit";
 import { checkSubscription } from "@/lib/subscription";
 
@@ -10,9 +9,7 @@ const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className="h-full relative">
-    
     <main className="md:pl-72 pb-10">
-      
       {children}
     </main>
   </div>
